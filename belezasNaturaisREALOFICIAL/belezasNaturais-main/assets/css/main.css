@@ -1,0 +1,303 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0px;
+    background-color: #EDF8E9;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+main{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #014A39;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar a {
+    color: #ECECA3;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 5px;
+    margin-right: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: #238B45;
+
+}
+
+.navbar li{
+    float: left;
+
+}
+
+h1{
+    margin-top: 3%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #1C691B;
+
+}
+
+img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+
+}
+
+.imagemInicial{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.imagens {
+    border-radius: 15px;
+    box-shadow: grey 15px 10px 30px;
+
+}
+
+h2{
+    font-size: 40px;
+    font-weight:bold;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+h4 {
+    font-size: 28px;
+    margin: 50px;
+}
+
+h5{
+    font-size: 28px;
+    margin-left: 70px;
+}
+.paragrafo{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: justify;
+    min-width: 200px;
+    line-height: 1.4;
+
+}
+
+.paragrafoConteudo{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: justify;
+    min-width: 200px;
+    margin: 40px;
+    line-height: 1.5;
+}
+
+
+.alinhamentoTextoEsquerda{
+    width: 50%;
+    margin-bottom: 15vh;
+
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   max-width: 1000px;
+   margin: 0 auto;  
+
+}
+
+.alinhamentoImagemDireita{
+    width: 50%;  
+
+}
+
+.chamadaBotao p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration: none;
+    
+}
+
+.chamadaBotao a{
+    text-decoration: none;
+}
+.botao{
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ECECA3;
+    background-color:#6FBE53;
+    padding: 0.5em 1em;
+    border: 5px solid #3F9322;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #238b45;
+    border-color: #6FBE53 ;
+
+}
+
+footer{
+    background-color: #014A39;
+    padding-top: 10px;
+    margin-top: 150px;
+    margin-top: auto;
+
+}
+
+.footerContainer{
+    display: flex;
+   gap: 50px;
+   padding: 50px;
+}
+
+.footerContainer h3, li{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.footerSobre{
+flex-grow: 1;
+flex-basis: 100%;
+
+}
+
+.footerSobre p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.footerContent{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.footerContent ul{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.footerContent a{
+    color: #ECECA3;
+    text-decoration: none;
+}
+
+.footerContent a:hover{
+    color: #6FBE53;
+    text-decoration: underline;
+}
+
+.footerNav{
+    flex-grow: 1;
+    flex-basis: 60%;
+    
+}
+
+.footerNav ul{
+    list-style-type: none;
+    line-height: 1.7;
+}
+
+.footerNav a{
+    color: #ECECA3;
+    text-decoration: none;
+}
+
+.footerNav a:hover{
+    color: #6FBE53;
+    text-decoration: underline;
+}
+
+.footerBottom{
+    background-color: #6FBE53;
+    color: #014A39;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.copyright{
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #ECECA3;
+}
+
+.chamadaDetalhes{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.fundoSections{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.diversidadeFoz ul li{
+    color: black;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: justify;
+}
+
+.imagensDetalhes {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
